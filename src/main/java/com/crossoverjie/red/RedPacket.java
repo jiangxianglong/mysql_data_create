@@ -124,7 +124,7 @@ public class RedPacket {
 
     public static void main(String[] args) {
         RedPacket redPacket = new RedPacket() ;
-        List<Integer> redPackets = redPacket.splitRedPacket(20000, 100);
+        List<Integer> redPackets = redPacket.splitRedPacket(20000, 10);
         System.out.println(redPackets) ;
 
         int sum = 0 ;
